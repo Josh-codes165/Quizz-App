@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <input type="file" name="" id="filestext" accept=".xlsx,.CSV">
+        <div id="headers">
+            <h1 id="quizCount">Simple Qiuz</h1>
+            <h1 id="timer">02:00</h1>
+        </div>
+        <div class="quiz">
+            <h2 id="question">Question Goes Here</h2>
+            <div id="answer-btn">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="nxt">
+            <button id="previous-btn">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
