@@ -6,10 +6,12 @@
 }
 
 body {
-    background-color: #001e4d;
+    background-image: url(Images/andrey-metelev-DEuansgqjns-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 #headers {
-    color: #001e4d;
+    color: blue;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #333;
