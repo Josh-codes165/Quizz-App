@@ -17,6 +17,13 @@ body {
     border-bottom: 1px solid #333;
     justify-content: space-between;
 }
+
+#question {
+    padding: 20px 10px;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
 .app {
     background-color: #fff;
     width: 90%;
@@ -35,14 +42,16 @@ body {
 }
 
 .quiz {
-    padding: 20px 0;
-
+    align-content: center;
+    text-align: center;
+    padding: 13%;
 }
 
 .quiz h2 {
-    font-size: 18px;
+    font-size: 16px;
     color: #001e4d;
     font-weight: 600;
+    align-self: center;
 }
 
 .btn {
